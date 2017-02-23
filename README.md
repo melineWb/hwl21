@@ -4,7 +4,7 @@ A simple application with users list
 
 ## Usage
 
-`grunt default` - has default settings for build projects:
+`grunt build` - has default settings for build project:
 
 1. concat - concat all js files from `dev/scripts/` to file `dist/scripts/app.js`. If you need do just this you can use `grunt concat`
 2. uglify - minified app.js. You can use just `grunt uglify`

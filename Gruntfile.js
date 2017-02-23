@@ -70,7 +70,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-http-server');
-  
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
+
+  grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
   grunt.registerTask('serve', ['http-server']);
 };
