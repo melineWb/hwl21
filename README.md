@@ -5,6 +5,7 @@ A simple application with users list
 ## Usage
 
 `grunt default` - has default settings for build projects:
+
 1. concat - concat all js files from `dev/scripts/` to file `dist/scripts/app.js`. If you need do just this you can use `grunt concat`
 2. uglify - minified app.js. You can use just `grunt uglify`
 3. sass - made dist/styles/styles.css from dev/styles/styles.scss. You can use just `grunt sass`
